@@ -18,9 +18,6 @@ class Forca {
     if (!this.letrasChutadas.includes(letra)) {
       this.letrasChutadas.push(letra);
       if (subtrairVida) {
-        console.log(
-          "----------------------------------- teste -----------------"
-        );
         this.vidas--;
       }
     }
